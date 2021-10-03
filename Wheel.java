@@ -7,5 +7,8 @@ import java.awt.*;
             setBackground(Color.GRAY);
             setSize(1000, 1000);
         }
-
+        public void paint(Graphics g){
+            g.setColor(Color.WHITE);
+            g.fillOval(100, 100, 800, 800);
+        }
     }
