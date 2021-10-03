@@ -1,4 +1,5 @@
 import java.awt.*;
+
 // class to construct a frame and containing main method    
 class MyCanvas {
     // class constructor

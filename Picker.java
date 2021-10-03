@@ -2,18 +2,8 @@ import java.util.Scanner;
 import java.util.Random;
 
 class Picker {
-    static final String[] GAMES = {
-        "Chess",
-        "Keep talking and nobody explodes",
-        "Age of Empires",
-        "Starcraft",
-        "Apex Legends",
-        "Valorant",
-        "Minecraft",
-        "Dauntless/Disgruntled/Disowned",
-        "Overwatch",
-        "Among us"
-    };
+    static final String[] GAMES = { "Chess", "Keep talking and nobody explodes", "Age of Empires", "Starcraft",
+            "Apex Legends", "Valorant", "Minecraft", "Dauntless/Disgruntled/Disowned", "Overwatch", "Among us" };
 
     public static void main(String[] args) {
         Scanner consoleInput = new Scanner(System.in);
